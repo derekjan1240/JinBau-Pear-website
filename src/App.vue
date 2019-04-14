@@ -1,31 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <div class="alert alert-primary" role="alert">
-      A simple primary alert—check it out!
-    </div>
+      <Header/>
+      <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '@/components/layouts/Header.vue'
+import Footer from '@/components/layouts/Footer'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Header,
+    Footer
   }
 }
 </script>
 
 <style>
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Oswald:200,300,400,500,600');
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Noto Sans TC', 'Oswald', 'Avenir', Helvetica, Arial, sans-serif;
 }
+
 </style>
