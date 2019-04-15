@@ -8,11 +8,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSeedling} from '@fortawesome/free-solid-svg-icons'
+import { faSeedling, faUserPlus, faUser} from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faLine } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faSeedling, faFacebook, faLine);
+library.add(faSeedling, faUserPlus, faUser, faFacebook, faLine);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
