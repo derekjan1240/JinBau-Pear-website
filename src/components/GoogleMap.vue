@@ -13,7 +13,7 @@ export default {
   data() {
     return {
         mapPsoition:{
-            url: "http://maps.google.com.tw/maps?q=24.2589,120.80988972&z=15&output=embed"
+            url: "https://maps.google.com.tw/maps?q=24.2589,120.80988972&z=15&output=embed"
         }
     }
   },
