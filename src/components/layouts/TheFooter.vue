@@ -1,5 +1,5 @@
 <template>
-    <footer id="footer" class="container-fluid">
+    <footer id="footer" class="container-fluid text-center">
         <GoogleMap/>
         <div id="social-media" class="pt-3">
           <ul class="list-inline">
