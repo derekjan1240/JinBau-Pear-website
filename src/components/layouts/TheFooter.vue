@@ -4,7 +4,7 @@
         <div id="social-media" class="pt-3">
           <ul class="list-inline">
             <li v-for="socialMediaList in socialMediaLists" :key="socialMediaList._id"  class="list-inline-item">
-              <a :href="socialMediaList.link"><font-awesome-icon :icon="socialMediaList.icon" size="lg" class="m-3" :style="socialMediaList.styles" v-b-tooltip.hover.top="socialMediaList.title"/></a>
+              <a :href="socialMediaList.link"><font-awesome-icon :icon="socialMediaList.icon" size="2x" class="m-3" :style="socialMediaList.styles" v-b-tooltip.hover.top="socialMediaList.title"/></a>
             </li>
           </ul>
           <p>©2019 by jinbau-pear.</p>
